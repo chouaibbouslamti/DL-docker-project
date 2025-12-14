@@ -32,7 +32,7 @@ def load_models():
 # Load models when the application starts
 load_models()
 
-# Charger le modèle ResNet18
+# Charger le modèle ResNet18 saida
 model = models.resnet18(weights=models.ResNet18_Weights.DEFAULT)
 model.eval()
 
